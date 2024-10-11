@@ -1,0 +1,10 @@
+header a {
+    color: var(--color-white);
+    transition: .6s;
+}
+
+header a:hover,
+header a:active,
+header a:focus {
+    color: var(--color-white-hover);
+}

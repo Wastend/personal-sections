@@ -1,0 +1,110 @@
+@import url('../../assets/styles/colors.css');
+
+html,
+body,
+span,
+object,
+iframe,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video,
+details,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 18px;
+    font-style: normal;
+    color: var(--color-white);
+    font-weight: 600;
+    line-height: 28px;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    transition: 0.6s;
+}
+
+body {
+    background-color: var(--color-black);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer,section {
+    margin-top: 80px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}

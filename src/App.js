@@ -1,8 +1,13 @@
+import { Routes, Route } from "react-router-dom";
+import MainPage from "./pages/MainPage";
+import GaleriePage from "./pages/GaleriePage";
+
 function App() {
   return (
-    <main>
-      hello world!
-    </main>
+      <Routes>
+        <Route path="/" element={<MainPage />}/>
+        <Route path="/galerie" element={<GaleriePage />}/>
+      </Routes>
   );
 }
 
